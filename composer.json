@@ -1,0 +1,27 @@
+{
+  "name": "sequelone/remote-file",
+  "description": "A php package that is a wrapper around some common operations on remote files.",
+  "type": "library",
+  "require": {
+    "php": "^7.0||^7.1||^7.2||^7.3||^7.4||^8.0||^8.1||^8.2||^8.3",
+    "curl/curl": "^2.0",
+    "nesbot/carbon": "^2.0||^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0 || ^10.5 || ^11.0",
+    "php-coveralls/php-coveralls": "^2.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrej Kopp",
+      "email": "admin@sequel.one"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "autoload": {
+    "psr-4": {
+      "SequelONE\\RemoteFile\\": "src"
+    }
+  }
+}
